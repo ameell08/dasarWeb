@@ -19,3 +19,33 @@ body{
     box-sizing: border-box;
     display: flex;
 }
+
+.sidebar-satu{
+   flex :1 ;
+   order: 1;
+   padding: 10px;
+   
+   background-color: #69d2e7 ;
+}
+
+.kolom-utama{
+    flex: 2;
+    order: 2;
+    padding: 10px;
+    background-color: #a7dbd8;
+}
+
+.sidebar-dua {
+    flex: 1;
+    order: 3;
+    padding: 10px;
+    background-color: #e0e4cc;
+}
+
+h3{
+    color: #fa6900;
+}
+
+h2{
+    color: #f38630;
+}
