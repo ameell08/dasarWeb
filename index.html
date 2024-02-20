@@ -1,13 +1,82 @@
-<!DOCTYPE html>
+</DOCTYPE html>
 <html>
     <head>
-        <title>Format text CSS</title>
-        <link rel="stylesheet" type="text/css" href="styleText.css">
+        <title>
+            Position CSS
+        </title>
+        <link rel="stylesheet" type="text/css" href="stylePosition.css">
     </head>
+
     <body>
-        <p class="tulisan_warna">Mengatur format text dengan CSS</p>
-        <p class="par1">
-            Bunga anggrek memiliki banyak makna. Dalam filosofi kuno Tiongkok, anggrek melambangkan kesabaran, kesuburan, kesetiaan, dan cinta. Bunga anggrek juga sering menjadi sumber inspirasi filosofis yang mengajarkan makna tentang keindahan, ketahanan, kesederhanaan, siklus, dan kemandirian
+       <h2>Position Static</h2>
+       <p>•	Static: Position static digunakan untuk 
+        mengatur element menjadi statis secara default. Elemen akan 
+        mengikuti posisi normal secara default, elemen tidak dipengaruhi 
+        oleh properti seperti top, bottom, left dan right.</p>
+
+        <div class="static">
+            Elemen ini diatur menggunakan posisi static
+        </div>
+        <br><br><br><br>
+        <h2>Position relative</h2>
+        <p>Relative: Sebuah element HTML yang menggunakan position relative akan terletak 
+            pada posisi normal. Mengatur properti atas, kanan, bawah, dan kiri dari elemen
+            yang diposisikan dengan “relatif” akan membuatnya jauh dari posisi normalnya. 
+            Konten lain tidak akan disesuaikan agar sesuai dengan celah yang 
+            ditinggalkan oleh elemen tersebut.</p>
+        
+        <div class="relative">
+            Elemen ini diatur menggunakan posisi : Relative
+        </div>
+        <br><br><br>
+        <h2>position fixed</h2>
+
+        <p>
+            Fixed: Sebuah element HTML yang di setting dengan 
+            position fixed akan memiliki sifat tetap. tanpa ada perubahan 
+            bahkan jika halaman website di scroll. Berlaku pengaturan left, bottom, 
+            top dan right pada position fixed.
         </p>
-    </body>
+
+        <div class="fixed"> 
+            Elemen ini diatur menggunakan posisi : fixed
+        </div>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+
+        <h2>position absolut</h2>
+        <p>Absolute: Element HTML yang menggunakan position absolute akan diposisikan 
+            relatif dengan element lain yang mendahuluinya yang terdekat, bukan relatif 
+            terhadap layar secara normal.
+        </p>
+        <div class="relative1">Element ini diatur menggunakan posisi; relative
+            <div class="absolut">Elemen ini diatur menggunkan posisi; absolute</div>
+        </div>
+
+        <br><br><br>
+        <br><br><br>
+
+        <h2>position sticky</h2>
+        <p>Cobaalah untuk <b>scrooll</b>untuk mengetahui bagaimana posisi sticky bekerja</p>
+        <p>catatan IE/Edge  15 dan versi yang lebih lama tidak mendukung sticy</p>
+
+    <div class="sticky">Hola aku adalah stikcy!</div>
+    <div style="padding-bottom: 2000px;">
+        <p>Dalam contoh ini, elemen sticky menempel pada posisi paling atas halaman(top:0),
+            ketika mencapai posisi scrollnya
+        </p>
+        <p>Cobaalah untuk melakukan scroll..</p>
+        <p>Cobalah untuk melakukan scroll...............Fixed: Sebuah element HTML yang di setting dengan 
+        position fixed akan memiliki sifat tetap. tanpa ada perubahan 
+        bahkan jika halaman website di scroll. Berlaku pengaturan left, bottom, 
+        top dan right pada position fixed.</p>
+        <p>Cobalah untuk melakukan Scroll......Fixed: Sebuah element HTML yang di setting dengan 
+        position fixed akan memiliki sifat tetap. tanpa ada perubahan 
+        bahkan jika halaman website di scroll. Berlaku pengaturan left, bottom, 
+        top dan right pada position fixed.</p>
+    </div>
+</body>
 </html>
