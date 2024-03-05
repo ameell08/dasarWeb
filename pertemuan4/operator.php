@@ -13,7 +13,7 @@ echo "Hasil Kurang : {$hasilKurang} <br>";
 echo "Hasil Kali : {$hasilKali} <br>";
 echo "Hasil Bagi : {$hasilBagi} <br>";
 echo "Hasil Pangkat : {$pangkat} <br>";
-
+ // soal 3.2
 $hasilSama = $a == $b;
 $hasilTidakSama = $a != $b;
 $hasilLebihKecil = $a < $b ;
@@ -27,7 +27,7 @@ echo "Hasil lebih kecil : {$hasilLebihKecil} <br>";
 echo "Hasil lebih besar : {$hasilLebihBesar} <br>";
 echo "Hasil lebih kecil sama dengan : {$hasilLebihKecilSama} <br>";
 echo "Hasil lebih besar sama dengan : {$hasilLebihBesarSama} <br>";
-
+//soal 3.3
 $hasilAnd = $a && $b;
 $hasilOr = $a || $b;
 $hasilNotA = !$a;
@@ -37,7 +37,7 @@ echo "Hasil And : {$hasilAnd} <br>";
 echo "Hasil Or : {$hasilOr} <br>";
 echo "Hasil Not A : {$hasilNotA} <br>";
 echo "Hasil Not B : {$hasilNotB} <br>";
-
+//soal 3.4
 $hasilTambahSama = $a += $b ;
 $hasilKurangSama = $a -= $b ;
 $hasilKaliSama = $a *= $b ;
@@ -49,13 +49,13 @@ echo "Hasil kurang sama : {$hasilKurangSama} <br>";
 echo "Hasil kali sama : {$hasilKaliSama} <br>";
 echo "Hasil bagi sama : {$hasilBagiSama} <br>";
 echo "Hasil sisa bagi sama : {$hasilSisaBagiSama} <br>";
-
+//soal 3.5
 $hasilIdentik = $a === $b;
 $hasilTidakIdentik = $a !== $b;
 echo "<br>";
 echo "Hasil identik : {$hasilIdentik} <br>";
 echo "Hasil tidak identik  : {$hasilTidakIdentik} <br>";
-
+// soal cerita
 $c = 45;
 $d = 28;
 $kursiTdkTerpakai = $c - $d ;
