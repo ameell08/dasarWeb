@@ -7,7 +7,7 @@
         echo "Tidak ada huruf kecil";
     }
 
-    $pattern = '/[0-9]/'; //Cocokkan satu atau lebih digit
+    $pattern = '/[0-9]+/'; //Cocokkan satu atau lebih digit
     $text ='There are 123 apples.';
     if(preg_match($pattern, $text, $matches)){
         echo "<br>";
