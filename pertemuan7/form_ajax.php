@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Contoh Form dengan PHP dan jQuery</title>
-        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     </head>
     <body>
         <h2>Form Contoh</h2>
@@ -28,10 +28,13 @@
             <input type="submit" value="Submit">
         </form>
 
-        <div>
+        <div id="hasil">
+            <!-- HASIL AKAN DITAMPILKAN DISISNI-->
+        </div>
+
             <script>
-                4(document).ready(function(){
-                    $("#myForm").sumbit(function (e){
+                $(document).ready(function(){
+                    $("#myForm").submit(function (e){
                         e.preventDefault(); //mencegah pengiriman form secara default
 
                         //mengumpulkan data form
@@ -50,6 +53,5 @@
                     })
                 })
             </script>
-        </div>
     </body>
 </html>
