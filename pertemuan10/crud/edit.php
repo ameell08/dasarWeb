@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Edit Data Anggota</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <?php
     include('koneksi.php');
@@ -27,9 +29,9 @@
             <label for="alamat">Alamat:</label>
             <input type="text" name="alamat" id="alamat" value="<?php echo $row['alamat']; ?>" required>
             <label for="no_telp">No. Telp:</label>
-            <input type="text" name="no_telp" id="no_telp" value="<?php echo $row['no_telp']; ?>" required> <button type="submit">Simpan Perubahan</button> 
-            <a href="index.php" class="btn-kembali">Kembali</a>
+            <input type="text" name="no_telp" id="no_telp" value="<?php echo $row['no_telp']; ?>" required> <button type="submit">Simpan Perubahan</button> <a href="index.php" class="btn-kembali">Kembali</a>
         </form>
     </div>
 </body>
+
 </html>
