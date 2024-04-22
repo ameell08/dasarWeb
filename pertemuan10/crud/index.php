@@ -55,7 +55,7 @@
                                 <?="Apakah Anda yakin ingin menghapus data dengan nama " . $row["nama"] . "?"?>
                             </div>
                             <div class="modal-footer">
-                                <a class="btn btn-danger" href="proses2.php?aksi=hapus&id=<?=$row["id"]?>">Hapus</a>
+                                <a class="btn btn-danger" href="proses.php?aksi=hapus&id=<?=$row["id"]?>">Hapus</a>
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
                             </div>
                         </div>
