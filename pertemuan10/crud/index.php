@@ -6,7 +6,7 @@
 <body>
     <div class="container mt-4">
         <h2>Data Anggota</h2>
-        <a class="btn btn-success mt-2" href="create2.php">Tambah Data</a>
+        <a class="btn btn-success mt-2" href="create.php">Tambah Data</a>
         <?php
         include("koneksi.php");
 
@@ -38,7 +38,7 @@
                     <td><?=$row["alamat"]?></td>
                     <td><?=$row["no_telp"]?></td>
                     <td>
-                        <a class="btn btn-primary" href="edit2.php?id=<?=$row["id"]?>">Edit</a>
+                        <a class="btn btn-primary" href="edit.php?id=<?=$row["id"]?>">Edit</a>
                         <a class="btn btn-danger" href="#" data-toggle="modal" data-target="#hapusModal<?=$row["id"]?>">Hapus</a>
                     </td>
                 </tr>
