@@ -13,7 +13,7 @@
         <?php
             include 'koneksi.php';
             $no = 1;
-            $query = "SELECT * FROM anggota ORDER BY id DESC";
+            $query = "SELECT * FROM anggota1 ORDER BY id DESC";
             $sql = $db1->prepare($query);
             $sql->execute();
             $res1 = $sql->get_result();
@@ -90,7 +90,7 @@
             url: "hapus_data.php",
             data: {id:id},
             success: function()  {
-                $('data').load("data.php");
+                $('.data').load("data.php");
             }, error: function(response) {
                 console.log(response.responseText);
             }

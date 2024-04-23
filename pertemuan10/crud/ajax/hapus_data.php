@@ -5,7 +5,7 @@
     
     $id = $_POST['id'];
     
-    $query = "DELETE FROM anggota WHERE id=?";
+    $query = "DELETE FROM anggota1 WHERE id=?";
     $sql = $db1->prepare($query);
     $sql -> bind_param("i", $id); 
     $sql-> execute();

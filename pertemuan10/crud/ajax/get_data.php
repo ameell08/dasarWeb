@@ -4,7 +4,7 @@
     include 'csrf.php';
 
     $id = $_POST['id'];
-    $query = "SELECT * FROM anggota WHERE id=? ORDER BY id DESC";
+    $query = "SELECT * FROM anggota1 WHERE id=? ORDER BY id DESC";
     $sql = $db1->prepare($query);
     $sql -> bind_param("i", $id); 
     $sql-> execute();
