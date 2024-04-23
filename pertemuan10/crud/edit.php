@@ -8,7 +8,7 @@
         <?php
             include("koneksi.php");
             $id = $_GET["id"];
-            $query = "SELECT * FROM anggota WHERE id = $id";
+            $query = "SELECT * FROM anggota1 WHERE id = $id";
             $result = mysqli_query($koneksi, $query);
             $row = mysqli_fetch_assoc($result);
             mysqli_close($koneksi);
